@@ -2,7 +2,7 @@
 
 Welcome to the **Stack Implementation Quiz**! 🎓  
 
-In this exercise, you'll work through a partially completed C program that demonstrates how a simple stack works using dynamic memory. Your task is to **fill in the blanks** as part of the lecture activity.
+In this exercise, you'll work through a partially completed C program demonstrating how a simple stack works using dynamic memory. Your task is to **fill in the blanks** during the lecture activity.
 
 ---
 
@@ -20,10 +20,49 @@ In this exercise, you'll work through a partially completed C program that demon
 
 ---
 
-## 🧩 Code Blanks to Fill  
-```c
-s->data = (int*)malloc(STACK_CAPACITY * sizeof(int));  // Blank 1
-if (s->top == STACK_CAPACITY - 1) {  // Blank 2 (Overflow check)
-if (s->top == -1) {  // Blank 3 (Underflow check)
-s->data[++(s->top)] = value;  // Blank 4 (Push)
-return s->data[(s->top)--];  // Blank 5 (Pop)
+## 🔧 Setup & Execution (Linux)
+>1️⃣ Clone Repository
+```
+git clone https://github.com/YOUR_INSTRUCTOR/STACK-ADT.git
+cd STACK-ADT
+```
+
+---
+
+# 🧪 Stack Quiz Instructions
+
+## 2️⃣ Edit Code
+
+### Terminal Editors:
+
+```
+nano stack.c       # Simple terminal editor  
+gedit stack.c &    # Graphical editor (if available)
+```
+
+----
+
+## 3️⃣ Compile & Run
+```
+gcc stack.c -o stack && ./stack
+```
+
+----
+
+## ⚠️ No Compiler?
+Install the required tools with:
+```
+sudo apt update && sudo apt install build-essential
+```
+----
+
+## ✅ Completion Checklist
+- All 5 blanks were filled correctly
+
+- Successful compilation without errors
+  
+ - Observed:
+
+   - Normal push/pop operations
+
+   - Overflow/underflow handling
