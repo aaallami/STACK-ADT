@@ -66,3 +66,12 @@ sudo apt update && sudo apt install build-essential
    - Normal push/pop operations
 
    - Overflow/underflow handling
+
+---
+
+## 💡 Bonus Challenge
+
+- Implement **dynamic memory reallocation** when the stack overflows:
+  - Instead of printing an overflow error, use `realloc()` to **double the stack capacity**
+  - Update the `STACK_CAPACITY` and ensure existing elements are preserved
+
