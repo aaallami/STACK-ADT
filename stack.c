@@ -13,6 +13,10 @@ typedef struct {
 // Initialize an empty stack
 void init(stack_t* s) {
     s->data = (int*)malloc(-----1)Fill in the blank---------);  // Allocate memory for stack
+    if (s->data == NULL) {
+        printf("Memory allocation failed!\n");
+        exit(1);  // Terminate the program if memory allocation fails
+    }    
     s->top = -1;  // Set top to -1 to indicate an empty stack
 }
 
