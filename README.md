@@ -23,7 +23,7 @@ In this exercise, you'll work through a partially completed C program demonstrat
 ## 🔧 Setup & Execution (Linux)
 >1️⃣ Clone Repository
 ```
-git clone https://github.com/YOUR_INSTRUCTOR/STACK-ADT.git
+git clone https://github.com/aaallami/STACK-ADT.git
 cd STACK-ADT
 ```
 
